@@ -1,0 +1,17 @@
+C:\Users\bouit\DojoIA\obj\Debug\net9.0\DojoIA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bouit\DojoIA\obj\Debug\net9.0\DojoIA.AssemblyInfoInputs.cache
+C:\Users\bouit\DojoIA\obj\Debug\net9.0\DojoIA.AssemblyInfo.cs
+C:\Users\bouit\DojoIA\obj\Debug\net9.0\DojoIA.csproj.CoreCompileInputs.cache
+C:\Users\bouit\DojoIA\bin\Debug\net9.0\DojoIA.exe
+C:\Users\bouit\DojoIA\bin\Debug\net9.0\DojoIA.deps.json
+C:\Users\bouit\DojoIA\bin\Debug\net9.0\DojoIA.runtimeconfig.json
+C:\Users\bouit\DojoIA\bin\Debug\net9.0\DojoIA.dll
+C:\Users\bouit\DojoIA\bin\Debug\net9.0\DojoIA.pdb
+C:\Users\bouit\DojoIA\bin\Debug\net9.0\dotenv.net.dll
+C:\Users\bouit\DojoIA\obj\Debug\net9.0\DojoIA.csproj.AssemblyReference.cache
+C:\Users\bouit\DojoIA\obj\Debug\net9.0\DojoIA.csproj.Up2Date
+C:\Users\bouit\DojoIA\obj\Debug\net9.0\DojoIA.dll
+C:\Users\bouit\DojoIA\obj\Debug\net9.0\refint\DojoIA.dll
+C:\Users\bouit\DojoIA\obj\Debug\net9.0\DojoIA.pdb
+C:\Users\bouit\DojoIA\obj\Debug\net9.0\DojoIA.genruntimeconfig.cache
+C:\Users\bouit\DojoIA\obj\Debug\net9.0\ref\DojoIA.dll
