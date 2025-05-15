@@ -15,3 +15,4 @@ C:\Users\bouit\DojoIA\obj\Debug\net9.0\refint\DojoIA.dll
 C:\Users\bouit\DojoIA\obj\Debug\net9.0\DojoIA.pdb
 C:\Users\bouit\DojoIA\obj\Debug\net9.0\DojoIA.genruntimeconfig.cache
 C:\Users\bouit\DojoIA\obj\Debug\net9.0\ref\DojoIA.dll
+C:\Users\bouit\DojoIA\obj\Debug\net9.0\DojoIA.sourcelink.json

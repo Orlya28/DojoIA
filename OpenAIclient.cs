@@ -26,7 +26,12 @@ public class OpenAIClient
             }
         };
 
-        var content = new StringContent(JsonSerializer.Serialize(requestBody), Encoding.UTF8, "application/json");
+        var content = new StringContent(
+            JsonSerializer.Serialize(requestBody),
+            Encoding.UTF8,
+            "application/json"
+        );
+
         var response = await client.PostAsync("https://api.openai.com/v1/chat/completions", content);
         var jsonResponse = await response.Content.ReadAsStringAsync();
 

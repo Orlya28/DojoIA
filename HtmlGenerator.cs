@@ -6,18 +6,18 @@ public class HtmlGenerator
     {
         string html = $@"
 <!DOCTYPE html>
-<html lang='fr'>
+<html lang='en'>
 <head>
     <meta charset='UTF-8'>
-    <title>Texte IA</title>
+    <title>AI Text</title>
 </head>
 <body>
-    <h1>Résultat</h1>
+    <h1>Result</h1>
     <p>{text}</p>
 </body>
 </html>";
 
         File.WriteAllText(filePath, html);
-        Console.WriteLine($"\n Fichier HTML généré : {filePath}");
+        Console.WriteLine($"\n HTML file generated: {filePath}");
     }
 }

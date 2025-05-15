@@ -6,25 +6,25 @@ string? apiKey = Environment.GetEnvironmentVariable("OPENAI_API_KEY");
 
 if (string.IsNullOrEmpty(apiKey))
 {
-    Console.WriteLine("❌ Clé API manquante. Vérifie ton fichier .env");
+    Console.WriteLine("");
     return;
 }
 
 var client = new OpenAIClient(apiKey);
 
-Console.WriteLine("Entrez votre texte à corriger ou traduire :");
+Console.WriteLine("Enter your text (in French):");
 string inputText = Console.ReadLine();
 
 if (string.IsNullOrWhiteSpace(inputText))
 {
-    Console.WriteLine("❌ Texte vide !");
+    Console.WriteLine("❌ Text cannot be empty.");
     return;
 }
 
-Console.WriteLine("\nChoisissez une option :");
-Console.WriteLine("1. Correction");
-Console.WriteLine("2. Traduction (anglais US)");
-Console.WriteLine("3. Traduction (anglais UK)");
+Console.WriteLine("\nChoose an option:");
+Console.WriteLine("1. Correct grammar and spelling");
+Console.WriteLine("2. Translate to American English");
+Console.WriteLine("3. Translate to British English");
 
 string option = Console.ReadLine();
 string prompt = option switch
@@ -37,13 +37,13 @@ string prompt = option switch
 
 if (string.IsNullOrEmpty(prompt))
 {
-    Console.WriteLine("❌ Option invalide.");
+    Console.WriteLine("❌ Invalid option.");
     return;
 }
 
 string response = await client.SendRequest(prompt);
 
-Console.WriteLine("\n✅ Réponse de l'IA :");
+Console.WriteLine("\n✅ AI Response:");
 Console.WriteLine(response);
 
 HtmlGenerator.Generate(response);
