@@ -2,7 +2,7 @@
 using System;
 
 DotEnv.Load();
-string? apiKey = Environment.GetEnvironmentVariable("OPENAI_API_KEY");
+string? apiKey = ("OPENAI_API_KEY");
 
 if (string.IsNullOrEmpty(apiKey))
 {
@@ -17,7 +17,7 @@ string inputText = Console.ReadLine();
 
 if (string.IsNullOrWhiteSpace(inputText))
 {
-    Console.WriteLine("❌ Text cannot be empty.");
+    Console.WriteLine(" Text cannot be empty.");
     return;
 }
 
@@ -37,7 +37,7 @@ string prompt = option switch
 
 if (string.IsNullOrEmpty(prompt))
 {
-    Console.WriteLine("❌ Invalid option.");
+    Console.WriteLine(" Invalid option.");
     return;
 }
 
